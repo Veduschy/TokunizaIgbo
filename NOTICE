@@ -1,0 +1,8 @@
+TokunizaIgbo
+Copyright 2026 Veduschy
+
+The code and documentation in this repository are licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The tokenizer files themselves (v*/tokenizer.model, v*/tokenizer.vocab) are NOT part of this repository and are
+not covered by this licence. They are trained on Igbo text including Igbo Wikipedia (CC BY-SA), the AfriBERTa
+corpus (Apache-2.0, castorini/afriberta-corpus) and TinyStories Igbo (Apache-2.0, ccibeekeoc42/TinyStories_igbo).

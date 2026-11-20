@@ -1,0 +1,123 @@
+{
+  "mix": {
+    "wiki": 0.3,
+    "afriberta": 0.5,
+    "pairs": 1.0,
+    "tinystories": 3,
+    "prose": 3,
+    "novel": 3
+  },
+  "sample_lines": {
+    "wiki": 315155,
+    "afriberta": 154680,
+    "pairs": 73751,
+    "tinystories": 117546,
+    "prose": 17934,
+    "novel": 4707
+  },
+  "special": [
+    "<|title|>",
+    "<|keywords|>",
+    "<|story|>",
+    "<|text|>",
+    "<|end|>"
+  ],
+  "sizes": {
+    "4000": {
+      "tinystories_test": {
+        "pieces_per_word": 1.512,
+        "byte_fallback_per_1k": 14.35,
+        "roundtrip_failures": 0,
+        "texts": 134
+      },
+      "afriberta_eval": {
+        "pieces_per_word": 1.678,
+        "byte_fallback_per_1k": 0.06,
+        "roundtrip_failures": 0,
+        "texts": 5000
+      },
+      "flores_devtest": {
+        "pieces_per_word": 1.71,
+        "byte_fallback_per_1k": 0.23,
+        "roundtrip_failures": 0,
+        "texts": 1012
+      },
+      "dotted_letters_in_vocab": {
+        "Ṅ": true,
+        "ṅ": true,
+        "Ị": true,
+        "ị": true,
+        "Ọ": true,
+        "ọ": true,
+        "Ụ": true,
+        "ụ": true
+      },
+      "dotted_letters_ever_bytes": false,
+      "train_seconds": 120
+    },
+    "8000": {
+      "tinystories_test": {
+        "pieces_per_word": 1.415,
+        "byte_fallback_per_1k": 15.34,
+        "roundtrip_failures": 0,
+        "texts": 134
+      },
+      "afriberta_eval": {
+        "pieces_per_word": 1.554,
+        "byte_fallback_per_1k": 0.06,
+        "roundtrip_failures": 0,
+        "texts": 5000
+      },
+      "flores_devtest": {
+        "pieces_per_word": 1.593,
+        "byte_fallback_per_1k": 0.25,
+        "roundtrip_failures": 0,
+        "texts": 1012
+      },
+      "dotted_letters_in_vocab": {
+        "Ṅ": true,
+        "ṅ": true,
+        "Ị": true,
+        "ị": true,
+        "Ọ": true,
+        "ọ": true,
+        "Ụ": true,
+        "ụ": true
+      },
+      "dotted_letters_ever_bytes": false,
+      "train_seconds": 137
+    },
+    "16000": {
+      "tinystories_test": {
+        "pieces_per_word": 1.369,
+        "byte_fallback_per_1k": 15.86,
+        "roundtrip_failures": 0,
+        "texts": 134
+      },
+      "afriberta_eval": {
+        "pieces_per_word": 1.482,
+        "byte_fallback_per_1k": 0.07,
+        "roundtrip_failures": 0,
+        "texts": 5000
+      },
+      "flores_devtest": {
+        "pieces_per_word": 1.513,
+        "byte_fallback_per_1k": 0.27,
+        "roundtrip_failures": 0,
+        "texts": 1012
+      },
+      "dotted_letters_in_vocab": {
+        "Ṅ": true,
+        "ṅ": true,
+        "Ị": true,
+        "ị": true,
+        "Ọ": true,
+        "ọ": true,
+        "Ụ": true,
+        "ụ": true
+      },
+      "dotted_letters_ever_bytes": false,
+      "train_seconds": 122
+    }
+  }
+}

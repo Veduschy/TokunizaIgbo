@@ -1,0 +1,6 @@
+# Tokenizer files are derived from private data (owner: Veduschy): never in git
+*.model
+*.vocab
+__pycache__/
+*.pyc
+.venv/
